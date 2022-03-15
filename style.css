@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Inconsolata:wght@400;600&family=League+Spartan:wght@400;600&display=swap");
+
+:root {
+  --light: #f4f4f4;
+  --dark: #333;
+  --black: #000;
+  --pop: rgb(86, 235, 235);
+}
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: hubballi, sans-serif;
+  font-size: 1.4rem;
+  overflow-x: hidden;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.link {
+  color: var(--dark);
+  text-decoration: none;
+  padding: 1rem;
+}
+.link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.input {
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn-light {
+  background: var(--light);
+}
+.text-shadow {
+  text-shadow: var(--black) 2px 2px;
+}
+.box-shadow {
+  box-shadow: var(--black) 4px 4px;
+}
+
+/* Navbar & Menu Styling */
+#navbar {
+  height: 8vh;
+  width: 100vw;
+  background: var(--light);
+}
+.nav-container {
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu {
+  list-style: none;
+}
+
+/* Landing Styling */
+#main-landing {
+  height: 80vh;
+  width: 100vw;
+}
+#landing-video {
+  margin: auto;
+}
+
+/* Banner Styling */
+.banner {
+  height: 20vh;
+  width: 100vw;
+  color: var(--pop);
+  background: url(/img/170125131714-open-bible.jpg) no-repeat center
+    center/cover;
+  flex-direction: column;
+}
+.banner-container {
+  height: 100%;
+  width: 40vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+/* Grid Section */
+.section {
+  height: 100vh;
+  width: 100vw;
+  background: var(--dark);
+}
+#grid-section {
+  height: 100vh;
+  width: 75vw;
+  margin: auto;
+}
+.grid-box {
+  height: 45vh;
+  width: 35vw;
+  background: var(--light);
+  border-radius: 5px;
+  justify-self: center;
+  align-self: center;
+}
+#bible-box {
+  background: url(/img/aaron-burden-H8s0PF2rcQs-unsplash.jpg) no-repeat center
+    center/cover;
+}
+#youth-box {
+  background: url(/img/devin-avery-lhAy4wmkjSk-unsplash.jpg) no-repeat center
+    center/cover;
+}
+#worship-box {
+  background: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg) no-repeat
+    center center/cover;
+}
+#prayer-box {
+  background: url(/img/pedro-lima-HtwsbbClBOs-unsplash.jpg) no-repeat center
+    center/cover;
+}
