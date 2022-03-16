@@ -86,7 +86,7 @@ body {
   height: 20vh;
   width: 100vw;
   color: var(--pop);
-  background: url(/img/170125131714-open-bible.jpg) no-repeat center
+  background: url(../img/170125131714-open-bible.jpg) no-repeat center
     center/cover;
   flex-direction: column;
 }
@@ -121,18 +121,18 @@ body {
   align-self: center;
 }
 #bible-box {
-  background: url(/img/aaron-burden-H8s0PF2rcQs-unsplash.jpg) no-repeat center
+  background: url(../img/aaron-burden-H8s0PF2rcQs-unsplash.jpg) no-repeat center
     center/cover;
 }
 #youth-box {
-  background: url(/img/devin-avery-lhAy4wmkjSk-unsplash.jpg) no-repeat center
+  background: url(../img/devin-avery-lhAy4wmkjSk-unsplash.jpg) no-repeat center
     center/cover;
 }
 #worship-box {
-  background: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg) no-repeat
+  background: url(../img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg) no-repeat
     center center/cover;
 }
 #prayer-box {
-  background: url(/img/pedro-lima-HtwsbbClBOs-unsplash.jpg) no-repeat center
+  background: url(../img/pedro-lima-HtwsbbClBOs-unsplash.jpg) no-repeat center
     center/cover;
 }
